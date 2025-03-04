@@ -1,1 +1,1 @@
-# AnotherMentor frontend modules
+# another-mentor frontend modules
