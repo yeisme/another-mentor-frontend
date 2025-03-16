@@ -95,7 +95,7 @@ const handleLogin = async () => {
 
     // TODO 从注册中心获取后端 user 服务
   try {
-    const response = await fetch('http://localhost:8080/api/v1/user/login', {
+    const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:8080/api/v1/user/login'}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

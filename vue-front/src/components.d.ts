@@ -7,20 +7,15 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Admin: typeof import('./components/Admin.vue')['default']
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     BaseSearchBar: typeof import('./components/search/BaseSearchBar.vue')['default']
     HeaderSearch: typeof import('./components/header/HeaderSearch.vue')['default']
-    Home: typeof import('./components/Home.vue')['default']
     LeftSidebar: typeof import('./components/sidebar/LeftSidebar.vue')['default']
-    Logic: typeof import('./components/Logic.vue')['default']
     RightSidebar: typeof import('./components/sidebar/RightSidebar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SearchButtonFilter: typeof import('./components/search/SearchButtonFilter.vue')['default']
     SearchInputQuery: typeof import('./components/search/SearchInputQuery.vue')['default']
     SidebarMenuItem: typeof import('./components/sidebar/SidebarMenuItem.vue')['default']
-    TheLeftSidebar: typeof import('./components/sidebar/TheLeftSidebar.vue')['default']
-    User: typeof import('./components/User.vue')['default']
   }
 }
